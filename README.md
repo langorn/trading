@@ -1,4 +1,4 @@
-# trading 
+# trading strategy - powered by pyalgotrade
 a stock analysis program
 
 i am using pyalgotrade to implement my own strategy of buying stock.

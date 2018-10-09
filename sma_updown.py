@@ -76,8 +76,8 @@ class MyStrategy(strategy.BacktestingStrategy):
 
 #import through local csv
 feed = GenericBarFeed(Frequency.DAY, None, None)
-feed.addBarsFromCSV("genting", "genting2.csv")
-instrument = "genting"
+feed.addBarsFromCSV("output", "output.csv")
+instrument = "output"
 myStrategy = MyStrategy(feed, instrument)
 
 sharpeRatioAnalyzer = sharpe.SharpeRatio()
